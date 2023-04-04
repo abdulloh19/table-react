@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,39 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+body {
+  margin-top: 10%;
+  margin-left: 30%;
+  width: 600px;
+}
+
+.table-btn {
+  outline: none;
+  background-color: transparent;
+  margin-bottom: 20px;
+  margin-left: 72%;
+  padding: 7px;
+  background-color: palegoldenrod;
+  color: #000;
+  border: 0;
+  border-radius: 10px;
+}
+.table-btn:hover {
+  opacity: 0.8;
+}
+
+tr:nth-child(even) {
+   background-color: #ddd;
+   color: #000;
+   /* opacity: 0.8; */
+}
+
+table, tr, th, td {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  border: 1px solid  #000;
 }
