@@ -1,0 +1,7 @@
+table, tr, th, td {
+    padding: 10px;
+    border: 1px solid #000;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 10%;
+}
